@@ -139,6 +139,7 @@ void affiche_erreur(int e){
 
 //Fonction qui affiche les resultats
 
+
 void affiche_valeurs(int type, int l, float x, tableau tab){
 	float resu;
 	float resu2;
