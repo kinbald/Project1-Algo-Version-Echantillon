@@ -201,7 +201,7 @@ int derivee(tableau equation, tableau derive, int longueurEquation){
 float zeroLongueur(tableau equation){
 	float x=0.1;
 	float pas=1;
-	while((equation[2]*x*x+equation[1]*x+equation[0]) > 0.001){
+	while((equation[2]*x*x+equation[1]*x+equation[0]) > 0.00001){
 		while((equation[2]*x*x+equation[1]*x+equation[0])>0){
 			x = x + pas;
 		}
